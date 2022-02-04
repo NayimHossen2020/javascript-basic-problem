@@ -13,4 +13,3 @@ function countVowel(sentence) {
 }
 const result = countVowel(string);
 console.log(result);
-
