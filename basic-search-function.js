@@ -10,11 +10,12 @@ function searchProducts(products, searchText) {
     const matched = [];
     for (const product of products) {
         const name = product.name;
-        if (name.indexOf(searchText) != - 1) {
-            matched.push(product);
+        if (name.indexOf(searchText) != -1) {
+            matched.push(product)
         }
     }
     return matched;
 }
+
 const result = searchProducts(products, 'phone');
 console.log(result);
